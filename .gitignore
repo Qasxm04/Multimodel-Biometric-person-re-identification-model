@@ -1,0 +1,61 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+face_env/
+face_env_new/
+Streamlit/face_env/
+Streamlit/face_env_new/
+
+# Datasets and participant media
+Dataset/
+face_id/Gait Dataset/
+face_id/UNUSED/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Model checkpoints, embeddings, and local databases
+*.pt
+*.pth
+*.pkl
+*.npy
+face_id/progress/
+Streamlit/progress/
+Streamlit/temp_uploads/
+
+# Generated evaluation outputs
+face_id/*results*.csv
+face_id/*score_matrix*.csv
+face_id/classification*.csv
+face_id/confusion*.csv
+face_id/overall_metrics*.csv
+face_id/per_class_metrics*.csv
+face_id/fusion_accuracy_bar_chart.png
+face_id/*.pdf
+face_id/fusion_protocol/*.csv
+face_id/fusion_protocol/*.txt
+face_id/gait_pipline/*results*.csv
+face_id/gait_pipline/*score_matrix*.csv
+
+# Reports, papers, and university admin documents
+report/
+presentation/
+research papers/
+*.docx
+*.pdf
+*.pptx
+*.drawio
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
